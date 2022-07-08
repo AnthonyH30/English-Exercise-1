@@ -53,9 +53,7 @@ let dadosFantasy = [
 ]
 
 if(dadosFantasy[2].title === "Mulan"){
-    console.log(dadosComedy[0])
-    console.log(dadosAction[1])
-    console.log(dadosFantasy[2])
+    console.log(`My favorite movie is "${dadosComedy[0].title}"`)
 }else{
-    console.log("Not this time")
+    console.log("Not even 5 stars")
 }
